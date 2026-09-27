@@ -132,3 +132,15 @@ FORMATTING.md
 *.backup
 *\ copy.*
 package.json.backup
+package-fixed.json
+
+# Local manifests, caches and CI scratch output
+.eslintcache
+.stryker-tmp/
+bundle-size-report.json
+size-limit-report*.json
+jest-babel.config.js.bak
+.metro-health-check*
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
